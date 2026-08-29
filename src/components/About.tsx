@@ -68,15 +68,13 @@ export default function About() {
           transition={{ delay: 0.1 }}
           className="mt-8 sm:mt-10 lg:mt-12 max-w-[860px] mx-auto text-center"
         >
-          <div className="space-y-4 sm:space-y-5 text-[15px] sm:text-[15.5px] leading-relaxed text-zinc-400">
+            <div className="space-y-4 sm:space-y-5 text-[15px] sm:text-[15.5px] leading-relaxed text-zinc-400">
             <p className="text-[16px] sm:text-[17px] leading-relaxed text-zinc-200 font-medium">
-              I am a creative digital professional passionate about transforming ideas into engaging visual content and successful digital experiences.
+              I'm a creative digital professional focused on visual content, digital experiences, and project execution.
             </p>
             <p>
-              My work combines <span className="text-white font-medium">creativity with strategy</span>. From editing high-impact videos and designing engaging graphics to managing projects and growing social media presence, I focus on delivering work that creates real results.
-            </p>
-            <p>
-              I enjoy collaborating with teams, managing creative workflows, organizing projects, and helping brands communicate their stories effectively — balancing aesthetic excellence with business objectives.
+              My expertise includes <span className="text-white font-medium">video editing, graphic design, social media management, project management, event management &amp; coordination, and QA &amp; testing </span>, 
+              I enjoy leading creative workflows, coordinating teams, solving problems, and ensuring every project is delivered with quality, creativity, and impact.
             </p>
           </div>
 
