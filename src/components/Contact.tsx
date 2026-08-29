@@ -194,7 +194,7 @@ export default function Contact() {
                   </span>
                   <div>
                     <div className="text-xs tracking-[0.12em] font-medium text-zinc-500">LOCATION</div>
-                    <div className="text-sm font-medium text-white">Dhaka, Bangladesh • Available worldwide</div>
+                    <div className="text-sm font-medium text-white">Rajshahi, Bangladesh • Available worldwide</div>
                   </div>
                 </div>
               </div>

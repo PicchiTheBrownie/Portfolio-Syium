@@ -110,24 +110,12 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="mt-8 sm:mt-10 flex flex-wrap items-center gap-4 sm:gap-6"
             >
-              <div className="flex -space-x-2">
-                {[1, 2, 3].map((i) => (
-                  <img
-                    key={i}
-                    src={`https://i.pravatar.cc/100?img=${10 + i}`}
-                    alt="client"
-                    className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border-2 border-[#070709] object-cover"
-                  />
-                ))}
-                <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border-2 border-[#070709] bg-white text-black grid place-items-center text-[11px] sm:text-xs font-bold">
-                  50+
-                </div>
-              </div>
+              
               <div className="text-sm leading-tight">
-                <div className="flex items-center gap-1 text-white font-semibold text-[13px] sm:text-sm">
-                  <span className="text-amber-400">★★★★★</span> 5.0
-                </div>
-                <div className="text-zinc-500 text-xs sm:text-sm">Trusted by 30+ global clients</div>
+                
+                  
+            
+              
               </div>
             </motion.div>
           </div>

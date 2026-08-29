@@ -61,7 +61,7 @@ export default function Experience() {
                     <Calendar className="w-3 h-3" /> {exp.period}
                   </div>
                   <div className="hidden lg:block mt-3 text-xs text-zinc-500 flex items-center justify-end gap-1">
-                    <MapPin className="w-3 h-3" /> Dhaka • Remote
+                    <MapPin className="w-3 h-3" /> Rajshahi • Remote
                   </div>
                 </div>
 

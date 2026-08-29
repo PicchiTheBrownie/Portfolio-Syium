@@ -106,7 +106,7 @@ export default function Footer() {
                 samiula015@gmail.com
               </a>
               <p className="text-zinc-400">
-                Dhaka, Bangladesh
+                Rajshahi, Bangladesh
                 <br />
                 Available worldwide • Remote
               </p>

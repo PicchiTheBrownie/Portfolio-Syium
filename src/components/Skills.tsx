@@ -18,7 +18,7 @@ const skillGroups = [
     category: 'Project Management',
     icon: Kanban,
     color: 'from-cyan-600 to-blue-600',
-    tools: ['Notion', 'Trello', 'ClickUp', 'Monday.com'],
+    tools: ['Notion', 'ClickUp', 'Monday.com'],
   },
   {
     category: 'Social Media',
