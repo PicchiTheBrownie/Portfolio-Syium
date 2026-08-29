@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Video, Palette, Kanban, Share2, ArrowUpRight, Check } from 'lucide-react'
+import { Video, Palette, Share2, Bug, Kanban, CalendarCheck2, ArrowUpRight, Check } from 'lucide-react'
 
 const services = [
   {
@@ -22,6 +22,24 @@ const services = [
   },
   {
     number: '03',
+    icon: Share2,
+    title: 'Social Media Management',
+    description: 'Building and managing strong digital presence through strategic content planning, creative campaigns, and consistent brand communication.',
+    skills: ['Content Strategy', 'Content Calendar', 'Social Media Growth', 'Community Management', 'Campaign Planning', 'Analytics', 'Brand Positioning', 'Performance Tracking'],
+    gradient: 'from-orange-500 to-pink-500',
+    accent: 'bg-orange-500',
+  },
+  {
+    number: '04',
+    icon: Bug,
+    title: 'QA & Testing',
+    description: 'Ensuring products and digital deliverables are reliable, bug-free, and user-ready through thorough manual and functional testing before launch.',
+    skills: ['Manual Testing', 'Functional Testing', 'Bug Tracking', 'Test Case Design', 'Regression Testing', 'UI/UX Testing', 'Cross-browser Testing', 'Quality Reporting'],
+    gradient: 'from-amber-500 to-red-500',
+    accent: 'bg-amber-500',
+  },
+  {
+    number: '05',
     icon: Kanban,
     title: 'Project Management',
     description: 'Managing creative projects from planning to execution while ensuring clear communication, organized workflows, and on-time delivery.',
@@ -30,13 +48,13 @@ const services = [
     accent: 'bg-cyan-500',
   },
   {
-    number: '04',
-    icon: Share2,
-    title: 'Social Media Management',
-    description: 'Building and managing strong digital presence through strategic content planning, creative campaigns, and consistent brand communication.',
-    skills: ['Content Strategy', 'Content Calendar', 'Social Media Growth', 'Community Management', 'Campaign Planning', 'Analytics', 'Brand Positioning', 'Performance Tracking'],
-    gradient: 'from-orange-500 to-pink-500',
-    accent: 'bg-orange-500',
+    number: '06',
+    icon: CalendarCheck2,
+    title: 'Event Management & Coordination',
+    description: 'Planning and coordinating memorable events from concept to execution, ensuring seamless logistics, vendor management, and flawless delivery on the day.',
+    skills: ['Event Planning', 'Vendor Coordination', 'Logistics Management', 'Budget Planning', 'On-site Coordination', 'Timeline Management', 'Guest Experience', 'Post-event Reporting'],
+    gradient: 'from-emerald-600 to-teal-600',
+    accent: 'bg-emerald-500',
   },
 ]
 

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Video, Palette, Kanban, Share2 } from 'lucide-react'
+import { Video, Palette, Share2, Bug, Kanban, Calendar } from 'lucide-react'
 
 const skillGroups = [
   {
@@ -15,16 +15,28 @@ const skillGroups = [
     tools: ['Adobe Photoshop', 'Adobe Illustrator', 'Canva', 'Lightroom'],
   },
   {
+    category: 'Social Media',
+    icon: Share2,
+    color: 'from-orange-500 to-rose-500',
+    tools: ['Meta Business Suite', 'Instagram', 'Facebook', 'LinkedIn', 'YouTube Studio', 'Discord'],
+  },
+  {
+    category: 'QA & Testing',
+    icon: Bug,
+    color: 'from-amber-500 to-red-500',
+    tools: ['Jira', 'Selenium', 'Postman', 'TestRail', 'BrowserStack'],
+  },
+  {
     category: 'Project Management',
     icon: Kanban,
     color: 'from-cyan-600 to-blue-600',
     tools: ['Notion', 'ClickUp', 'Monday.com'],
   },
   {
-    category: 'Social Media',
-    icon: Share2,
-    color: 'from-orange-500 to-rose-500',
-    tools: ['Meta Business Suite', 'Instagram', 'Facebook', 'LinkedIn', 'YouTube Studio', 'Discord'],
+    category: 'Event Management & Coordination',
+    icon: Calendar,
+    color: 'from-emerald-600 to-teal-600',
+    tools: ['Eventbrite', 'Cvent', 'Google Calendar', 'Zoom'],
   },
 ]
 

@@ -330,6 +330,12 @@ export default function Contact() {
                       <option value="Project Management" className="bg-[#111113]">
                         Project Management
                       </option>
+                      <option value="Project Management" className="bg-[#111113]">
+                        Event Management & Coordination
+                      </option>
+                      <option value="Project Management" className="bg-[#111113]">
+                        QA & Testing
+                      </option>
                       <option value="Full Creative Package" className="bg-[#111113]">
                         Full Creative Package
                       </option>

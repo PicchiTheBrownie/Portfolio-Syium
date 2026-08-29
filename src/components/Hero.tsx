@@ -64,13 +64,15 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.24 }}
               className="mt-3 sm:mt-4 text-[15px] sm:text-[16px] lg:text-[17px] leading-relaxed text-zinc-400 max-w-[560px]"
             >
-              I help brands and businesses grow through creative{' '}
-              <span className="text-zinc-200">video editing</span>, strategic{' '}
-              <span className="text-zinc-200">project management</span>, impactful{' '}
-              <span className="text-zinc-200">graphic design</span>, and professional{' '}
-              <span className="text-zinc-200">social media management</span>.
+              A multidisciplinary creative and operations specialist helping brands grow through{' '}
+              <span className="text-zinc-200">video editing</span>,{' '}
+              <span className="text-zinc-200">graphic design</span>, and{' '}
+              <span className="text-zinc-200">social media management</span> — supported by strong{' '}
+              <span className="text-zinc-200">project management</span>,{' '}
+              <span className="text-zinc-200">event coordination</span>, and{' '}
+              <span className="text-zinc-200">QA & testing</span> to guarantee quality at every step.
             </motion.p>
-
+            
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
