@@ -7,7 +7,7 @@ const services = [
     icon: Video,
     title: 'Video Editing',
     description: 'Creating engaging, cinematic, and high-performing video content for brands, businesses, social media, YouTube, and digital campaigns.',
-    skills: ['Short Form Videos', 'YouTube Editing', 'Reels & TikTok', 'Promotional Videos', 'Motion Graphics', 'Color Grading', 'Storytelling', 'Cinematic Editing'],
+    skills: ['Short Form Videos', 'YouTube Editing', 'Reels & TikTok', 'Promotional Videos', 'Color Grading', 'Storytelling', 'Cinematic Editing'],
     gradient: 'from-violet-600 to-indigo-600',
     accent: 'bg-violet-500',
   },

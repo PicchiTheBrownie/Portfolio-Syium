@@ -6,7 +6,7 @@ const skillGroups = [
     category: 'Video Editing',
     icon: Video,
     color: 'from-violet-600 to-indigo-600',
-    tools: ['Adobe Premiere Pro', 'After Effects', 'CapCut', 'DaVinci Resolve', 'Motion Graphics'],
+    tools: ['Adobe Premiere Pro', 'After Effects', 'CapCut', 'DaVinci Resolve'],
   },
   {
     category: 'Graphic Design',
@@ -24,7 +24,7 @@ const skillGroups = [
     category: 'Social Media',
     icon: Share2,
     color: 'from-orange-500 to-rose-500',
-    tools: ['Meta Business Suite', 'Instagram', 'Facebook', 'LinkedIn', 'YouTube Studio', 'TikTok Studio', 'Discord'],
+    tools: ['Meta Business Suite', 'Instagram', 'Facebook', 'LinkedIn', 'YouTube Studio', 'Discord'],
   },
 ]
 
