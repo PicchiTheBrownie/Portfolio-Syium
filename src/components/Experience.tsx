@@ -33,12 +33,13 @@ const academics = [
 
 const communities = [
   {
-    name: 'Bangladesh Socio-Cultural Forum (BSCF)',
-    role: 'Associate Member, Youth Network',
-    description: 'A youth-focused socio-cultural platform promoting cultural awareness, community engagement, and social development through collaborative initiatives and activities.',
-    color: 'from-pink-500 to-amber-500',
-    roleColor: 'text-pink-300',
-    link: null,
+    name: 'Tribrontro',
+    role: 'Founder & CEO',
+    description:
+      "Tribrontro is a fashion-focused clothing brand built around contemporary style, creative expression, and quality-driven products. As Founder & CEO, I oversee the brand's creative direction, business operations, marketing, and overall growth strategy.",
+    color: 'from-orange-500 to-rose-500',
+    roleColor: 'text-orange-300',
+    link: 'https://www.instagram.com/tribrontro/?hl=en',
   },
   {
     name: 'G Lab',
@@ -46,7 +47,15 @@ const communities = [
     description: 'A creative gaming-focused organization working across game testing, quality assurance, digital content, and community-driven initiatives, with a focus on building quality experiences and collaborative projects.',
     color: 'from-[#c8ff3e] to-emerald-500',
     roleColor: 'text-[#c8ff3e]',
-    link: null,
+    link: 'https://glab-phi.vercel.app/',
+  },
+  {
+    name: 'Bangladesh Socio-Cultural Forum (BSCF)',
+    role: 'Associate Member, Youth Network',
+    description: 'A youth-focused socio-cultural platform promoting cultural awareness, community engagement, and social development through collaborative initiatives and activities.',
+    color: 'from-pink-500 to-amber-500',
+    roleColor: 'text-pink-300',
+    link: 'https://bscf.dev/',
   },
   // Add more communities the same way — just copy the object shape above.
   // {
@@ -322,7 +331,7 @@ export default function Experience() {
                       rel="noopener noreferrer"
                       className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-white/70 hover:text-white transition-colors"
                     >
-                      Visit <ExternalLink className="w-3 h-3" />
+                      Explore <ExternalLink className="w-3 h-3" />
                     </a>
                   )}
                 </div>
