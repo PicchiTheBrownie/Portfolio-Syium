@@ -141,7 +141,7 @@ export default function Hero() {
               <div className="group relative rounded-[24px] sm:rounded-[30px] overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-900 to-black border border-white/[0.08] p-1.5 sm:p-2 shadow-[0_12px_40px_rgba(0,0,0,0.5)] sm:shadow-[0_20px_80px_rgba(0,0,0,0.6)] w-full">
                 <div className="object-cover rounded-[18px] sm:rounded-[22px] overflow-hidden bg-black relative aspect-[4/5] sm:aspect-[4/4.2] md:aspect-[4/3.8] lg:aspect-[4/3.4]">
                   <img
-                    src="/public/Sium2.jpg"
+                    src="/Sium2.jpg"
                     alt="Samiul Alim Syium"
                     className="w-full h-full object-cover object-top"
                     loading="eager"
@@ -154,7 +154,7 @@ export default function Hero() {
                     {/* Name card - held, no hover */}
                     <div className="flex items-center gap-2 sm:gap-3 bg-[#0F0F12]/90 backdrop-blur-xl border border-white/[0.08] rounded-xl sm:rounded-2xl p-2 sm:p-2.5 md:p-3">
                       <img
-                        src="/public/Black.png"
+                        src="/Black.png"
                         alt="Samiul Alim Syium"
                         className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white/20 object-cover object-top flex-shrink-0"
                       />
