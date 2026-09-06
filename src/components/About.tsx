@@ -35,7 +35,7 @@ const stats = [
   { value: 50, suffix: '+', label: 'Projects Completed', sub: 'Across diverse industries', icon: Award },
   { value: 4, suffix: '+', label: 'Core Expertise', sub: 'Multi-disciplinary', icon: Target },
   { label: 'Creative', valueLabel: 'Creative', sub: 'Problem Solver', suffix: '', icon: Lightbulb, isText: true },
-  { value: 100, suffix: '%', label: 'Client Focused', sub: 'Satisfaction driven', icon: Users },
+  { value: 99, suffix: '%', label: 'Client Focused', sub: 'Satisfaction driven', icon: Users },
 ]
 
 export default function About() {

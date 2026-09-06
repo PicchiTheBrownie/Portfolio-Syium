@@ -1,6 +1,53 @@
 import { motion } from 'framer-motion'
 import { Briefcase, GraduationCap, MapPin, Calendar, Users, ExternalLink } from 'lucide-react'
-import { experiences } from '../data/experienceData'
+
+const experiences = [
+  {
+    period: '2024 — Present',
+    role: 'Executive Director & Creative Digital Specialist',
+    company: 'Freelance & Collaborative Projects',
+    color: 'from-amber-400 via-yellow-500 to-orange-600',
+    description:
+      'Leading creative and digital projects while managing business operations, client relationships, project delivery, and multidisciplinary creative workflows.',
+    responsibilities: [
+      'Leading creative, digital, and business projects from concept to delivery',
+      'Managing video editing, graphic design, and social media campaigns',
+      'Coordinating teams, clients, events, timelines, and project workflows',
+      'Overseeing quality assurance, testing, and final deliverables',
+      'Developing strategies for brand growth, content, and digital presence',
+    ],
+  },
+  {
+    period: '2023 — 2024',
+    role: 'Creative Project & Media Specialist',
+    company: 'Independent Studio',
+    color: 'from-cyan-600 to-blue-600',
+    description:
+      'Managing creative production and digital campaigns across video, design, social media, events, and project coordination.',
+    responsibilities: [
+      'Delivered video editing and graphic design projects for diverse clients',
+      'Planned and managed social media content and campaigns',
+      'Coordinated projects, events, teams, and client requirements',
+      'Built creative workflows for consistent and efficient delivery',
+      'Performed quality checks across digital content and deliverables',
+    ],
+  },
+  {
+    period: '2022 — 2023',
+    role: 'Creative Content & Digital Professional',
+    company: 'Digital Studio',
+    color: 'from-violet-600 to-indigo-600',
+    description:
+      'Developed creative content and supported digital projects across design, video, social media, event coordination, and quality testing.',
+    responsibilities: [
+      'Created video content, graphics, branding assets, and social media creatives',
+      'Supported content planning and social media management',
+      'Assisted with project and event coordination',
+      'Developed organized creative workflows and digital assets',
+      'Learned and applied QA, testing, and quality-control processes',
+    ],
+  },
+]
 
 const academics = [
   {

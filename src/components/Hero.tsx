@@ -65,6 +65,7 @@ export default function Hero() {
               className="mt-3 sm:mt-4 text-[15px] sm:text-[16px] lg:text-[17px] leading-relaxed text-zinc-400 max-w-[560px]"
             >
               A multidisciplinary creative and operations specialist helping brands grow through{' '}
+              <span className="text-zinc-200">executive director</span>,{' '}
               <span className="text-zinc-200">video editing</span>,{' '}
               <span className="text-zinc-200">graphic design</span>, and{' '}
               <span className="text-zinc-200">social media management</span> — supported by strong{' '}
@@ -154,7 +155,7 @@ export default function Hero() {
                     {/* Name card - held, no hover */}
                     <div className="flex items-center gap-2 sm:gap-3 bg-[#0F0F12]/90 backdrop-blur-xl border border-white/[0.08] rounded-xl sm:rounded-2xl p-2 sm:p-2.5 md:p-3">
                       <img
-                        src="/Black.png"
+                        src="/Sium2.jpg"
                         alt="Samiul Alim Syium"
                         className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white/20 object-cover object-top flex-shrink-0"
                       />

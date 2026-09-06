@@ -1,9 +1,18 @@
 import { motion } from 'framer-motion'
-import { Video, Palette, Share2, Bug, Kanban, CalendarCheck2, ArrowUpRight, Check } from 'lucide-react'
+import { Video, Palette, Share2, Bug, Kanban, CalendarCheck2, Briefcase, ArrowUpRight, Check } from 'lucide-react'
 
 const services = [
+ {
+  number: '01',
+  icon: Briefcase,
+  title: 'Executive Director',
+  description: 'Supporting leaders with strategic planning, business operations, coordination, and executive-level management.',
+  skills: ['Executive Support', 'Strategic Planning', 'Operations', 'Project Management', 'Business Development', 'Client Management', 'Scheduling', 'Reporting'],
+  gradient: 'from-amber-400 via-yellow-500 to-orange-600',
+  accent: 'bg-amber-500',
+},
   {
-    number: '01',
+    number: '02',
     icon: Video,
     title: 'Video Editing',
     description: 'Creating engaging, cinematic, and high-performing video content for brands, businesses, social media, YouTube, and digital campaigns.',
@@ -12,7 +21,7 @@ const services = [
     accent: 'bg-violet-500',
   },
   {
-    number: '02',
+    number: '03',
     icon: Palette,
     title: 'Graphic Design',
     description: 'Designing visually powerful graphics that help brands communicate clearly and stand out across digital platforms.',
@@ -21,7 +30,7 @@ const services = [
     accent: 'bg-fuchsia-500',
   },
   {
-    number: '03',
+    number: '04',
     icon: Share2,
     title: 'Social Media Management',
     description: 'Building and managing strong digital presence through strategic content planning, creative campaigns, and consistent brand communication.',
@@ -30,16 +39,16 @@ const services = [
     accent: 'bg-orange-500',
   },
   {
-    number: '04',
-    icon: Bug,
-    title: 'QA & Testing',
-    description: 'Ensuring products and digital deliverables are reliable, bug-free, and user-ready through thorough manual and functional testing before launch.',
-    skills: ['Manual Testing', 'Functional Testing', 'Bug Tracking', 'Test Case Design', 'Regression Testing', 'UI/UX Testing', 'Cross-browser Testing', 'Quality Reporting'],
-    gradient: 'from-amber-500 to-red-500',
-    accent: 'bg-amber-500',
+    number: '05',
+    icon: CalendarCheck2,
+    title: 'Event Management & Coordination',
+    description: 'Planning and coordinating memorable events from concept to execution, ensuring seamless logistics, vendor management, and flawless delivery on the day.',
+    skills: ['Event Planning', 'Vendor Coordination', 'Logistics Management', 'Budget Planning', 'On-site Coordination', 'Timeline Management', 'Guest Experience', 'Post-event Reporting'],
+    gradient: 'from-emerald-600 to-teal-600',
+    accent: 'bg-emerald-500',
   },
   {
-    number: '05',
+    number: '06',
     icon: Kanban,
     title: 'Project Management',
     description: 'Managing creative projects from planning to execution while ensuring clear communication, organized workflows, and on-time delivery.',
@@ -48,13 +57,13 @@ const services = [
     accent: 'bg-cyan-500',
   },
   {
-    number: '06',
-    icon: CalendarCheck2,
-    title: 'Event Management & Coordination',
-    description: 'Planning and coordinating memorable events from concept to execution, ensuring seamless logistics, vendor management, and flawless delivery on the day.',
-    skills: ['Event Planning', 'Vendor Coordination', 'Logistics Management', 'Budget Planning', 'On-site Coordination', 'Timeline Management', 'Guest Experience', 'Post-event Reporting'],
-    gradient: 'from-emerald-600 to-teal-600',
-    accent: 'bg-emerald-500',
+    number: '07',
+    icon: Bug,
+    title: 'QA & Testing',
+    description: 'Ensuring products and digital deliverables are reliable, bug-free, and user-ready through thorough manual and functional testing before launch.',
+    skills: ['Manual Testing', 'Functional Testing', 'Bug Tracking', 'Test Case Design', 'Regression Testing', 'UI/UX Testing', 'Cross-browser Testing', 'Quality Reporting'],
+    gradient: 'from-amber-500 to-red-500',
+    accent: 'bg-amber-500',
   },
 ]
 

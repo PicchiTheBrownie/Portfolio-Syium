@@ -1,7 +1,13 @@
 import { motion } from 'framer-motion'
-import { Video, Palette, Share2, Bug, Kanban, Calendar } from 'lucide-react'
+import { Briefcase, Video, Palette, Share2, Bug, Kanban, Calendar } from 'lucide-react'
 
 const skillGroups = [
+  {
+    category: 'Executive Director',
+    icon: Briefcase,
+    color: 'from-amber-400 via-yellow-500 to-orange-600',
+    tools: ['Google Workspace', 'Microsoft Office', 'LinkedIn'],
+  },
   {
     category: 'Video Editing',
     icon: Video,
