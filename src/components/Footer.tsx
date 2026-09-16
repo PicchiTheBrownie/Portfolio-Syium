@@ -43,7 +43,6 @@ const socials = [
   { Icon: LinkedinIcon, href: '#', label: 'LinkedIn' },
   { Icon: FacebookIcon, href: '#', label: 'Facebook' },
   { Icon: InstagramIcon, href: '#', label: 'Instagram' },
-  { Icon: YoutubeIcon, href: '#', label: 'YouTube' },
   { Icon: MessageCircle, href: '#', label: 'WhatsApp' },
 ]
 

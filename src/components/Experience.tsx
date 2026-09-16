@@ -3,9 +3,8 @@ import { Briefcase, GraduationCap, MapPin, Calendar, Users, ExternalLink } from 
 
 const experiences = [
   {
-    period: '2024 — Present',
+    period: '2025 — Present',
     role: 'Executive Director & Creative Digital Specialist',
-    company: 'Freelance & Collaborative Projects',
     color: 'from-amber-400 via-yellow-500 to-orange-600',
     description:
       'Leading creative and digital projects while managing business operations, client relationships, project delivery, and multidisciplinary creative workflows.',
@@ -18,9 +17,8 @@ const experiences = [
     ],
   },
   {
-    period: '2023 — 2024',
+    period: '2024 — 2025',
     role: 'Creative Project & Media Specialist',
-    company: 'Independent Studio',
     color: 'from-cyan-600 to-blue-600',
     description:
       'Managing creative production and digital campaigns across video, design, social media, events, and project coordination.',
@@ -33,9 +31,8 @@ const experiences = [
     ],
   },
   {
-    period: '2022 — 2023',
+    period: '2023 — 2024',
     role: 'Creative Content & Digital Professional',
-    company: 'Digital Studio',
     color: 'from-violet-600 to-indigo-600',
     description:
       'Developed creative content and supported digital projects across design, video, social media, event coordination, and quality testing.',
@@ -98,7 +95,7 @@ const communities = [
   },
   {
     name: 'Bangladesh Socio-Cultural Forum (BSCF)',
-    role: 'Associate Member, Youth Network',
+    role: 'Senior Associate Member, Youth Network',
     description: 'A youth-focused socio-cultural platform promoting cultural awareness, community engagement, and social development through collaborative initiatives and activities.',
     color: 'from-pink-500 to-amber-500',
     roleColor: 'text-pink-300',
@@ -194,9 +191,6 @@ export default function Experience() {
                           </h3>
                           <p className="mt-1 text-sm font-medium text-violet-300">{exp.company}</p>
                         </div>
-                        <span className="px-3 py-1 rounded-full bg-white text-black text-xs font-bold">
-                          {i === 0 ? 'Current' : `${2024 - i} Years`}
-                        </span>
                       </div>
                       <p className="mt-4 text-sm leading-relaxed text-zinc-400">{exp.description}</p>
                       <ul className="mt-4 space-y-2">

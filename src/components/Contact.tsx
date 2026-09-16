@@ -132,11 +132,10 @@ export default function Contact() {
   }
 
   const socials = [
-    { Icon: LinkedinIcon, href: '#', label: 'LinkedIn' },
-    { Icon: FacebookIcon, href: '#', label: 'Facebook' },
-    { Icon: InstagramIcon, href: '#', label: 'Instagram' },
-    { Icon: YoutubeIcon, href: '#', label: 'YouTube' },
-    { Icon: MessageCircle, href: '#', label: 'WhatsApp' },
+    { Icon: LinkedinIcon, href: 'https://www.linkedin.com/in/samiulalimsyium/', label: 'LinkedIn' },
+    { Icon: FacebookIcon, href: 'https://www.facebook.com/samiulalimsyium', label: 'Facebook' },
+    { Icon: InstagramIcon, href: 'https://www.instagram.com/sium.dump', label: 'Instagram' },
+    { Icon: MessageCircle, href: 'https://wa.me/8801751234360', label: 'WhatsApp' },
   ]
 
   return (
